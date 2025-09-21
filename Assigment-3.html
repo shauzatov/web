@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table of students</title>
+    <link rel="stylesheet" href="style_3.css">
+</head>
+<body>
+    <h1 id="grades-title">Student Grades</h1>
+    <table class="grades" border="1">
+    <tr>
+        <th>Name</th>
+        <th>Subject</th>
+        <th>Grade</th>
+    </tr>
+    <tr >
+        <td colspan="2">Alice</td>
+        <td>Math</td>
+        <td>A</td>
+    </tr>
+    <tr class="highlight-row">
+        <td>Bob</td>
+        <td rowspan="2">Science</td>
+        <td>B</td>
+    </tr>
+    <tr>
+        <td>Charlie</td>
+        <td>A</td>
+    </tr>
+    </table>
+
+    <form class="feedback-form">
+    <h2>Feedback Form</h2> <br>
+    <label for="name">Name:</label>
+    <input type="text" id="name"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email"><br><br>
+
+    <label for="role">Role:</label>
+    <select id="role">
+        <option>Student</option>
+        <option>Teacher</option>
+        <option>Other</option>
+    </select><br><br>
+
+    <label>Subscribe?</label><br>
+    <label><input type="radio" name="subscribe" value="yes"> Yes</label>
+    <label><input type="radio" name="subscribe" value="no"> No</label>
+    <br><br>
+
+
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" rows="4"></textarea><br><br>
+
+    <button type="submit">Submit</button>
+    <a href="Assigment-2.html" class="back">Back to main menu</a>
+    </form>
+
+</body>
+</html>

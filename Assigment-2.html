@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header"><h2>My Website Title</h2></div>
+
+    <div class="navbar">
+       <a href="Assigment-2.html">Home</a>
+       <a href="Ass_2_2.html">AE</a>
+       <a href="Assigment-3.html">Form</a>
+       <a href="https://vesti.kz/football/nazvanyi-shest-pretendentov-zolotoy-myach-2025-vruchenie-369781/">Task 4</a>
+    </div>
+
+    <div class="sidebar">
+        <h3>Menu:</h3>
+        <ul>
+            <a href="https://www.instagram.com/shauzatov?igsh=MXU2MndjZTFhMTdnbg=="><li>Instagram</li></a>
+            <a href="https://www.facebook.com/?locale=ru_RU"><li>Facebook</li></a>
+            <a href="https://youtu.be/cHOzL8xAV6g?si=OG-YnGcJwMtnG5zp"><li>YouTube</li></a>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h2>Main Content</h2>
+        <p>This is the main</p>
+    <div class="footer">© 2025 Sayakhat's Website | All rights reserved</div>
+</body>
+</html>
